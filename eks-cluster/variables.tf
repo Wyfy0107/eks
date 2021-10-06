@@ -17,3 +17,11 @@ variable "project" {
 variable "environment" {
 
 }
+
+variable "public_subnets_cidr" {
+  type = list(string)
+}
+
+variable "account_id" {
+
+}
